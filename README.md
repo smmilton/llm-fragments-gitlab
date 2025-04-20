@@ -37,5 +37,10 @@ increased API limits.
 
 # Installation
 
-Add the `llm_fragments_gitlab.py` module alongside your existing plugin
-and register the new loaders as needed.
+Clone the repository to a local directory and install using the command:
+
+```bash
+git clone https://github.com/smmilton/llm-fragments-gitlab
+llm install ./llm-fragments-gitlab -U
+```
+
