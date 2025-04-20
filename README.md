@@ -1,7 +1,10 @@
-# GitLab support for llm-fragments-github
+# GitLab support for llm-fragments
 
 This extension adds support for loading GitLab repositories and GitLab issues
 as LLM fragments.
+
+Forked from Simon Willison's llm-fragments-github
+https://github.com/simonw/llm-fragments-github
 
 ---
 
