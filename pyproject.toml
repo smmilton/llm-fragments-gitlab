@@ -1,0 +1,27 @@
+[project]
+name = "llm-fragments-gitlab"
+version = "0.1"
+description = "Load GitLab repository contents as LLM fragments"
+readme = "README.md"
+authors = [{name = "Stephen Milton"}]
+license = "Apache-2.0"
+requires-python = ">=3.9"
+dependencies = [
+    "llm"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/smmilton/llm-fragments-gitlab"
+Changelog = "https://github.com/smmilton/llm-fragments-gitlab/releases"
+Issues = "https://github.com/smmilton/llm-fragments-gitlab/issues"
+
+[project.entry-points.llm]
+fragments_gitlab = "llm_fragments_gitlab"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
